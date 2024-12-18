@@ -1,14 +1,11 @@
 'use client'
 import Image from 'next/image'
 import iconImg from '@/app/assets/insignia-white_1.svg'
-import { useScroll } from 'motion/react'
 
 export default function NavBar() {
-    const scrollProgress = useScroll()
-
     return (
         <div className="nav--text flex items-center justify-between w-[90%] mx-auto my-0">
-            <div className="icon flex  items-center --font-montserrat">
+            <div className="icon flex items-center --font-montserrat">
                 <Image
                     aria-label="hero-text"
                     className="cursor-pointer"

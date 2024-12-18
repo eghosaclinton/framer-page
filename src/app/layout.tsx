@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Montserrat } from 'next/font/google'
 import localFont from 'next/font/local'
 import Header from './components/Header'
+import ScrollButtons from './components/ScrollButtons'
 import Footer from './components/Footer'
 import './globals.css'
 
@@ -43,7 +44,9 @@ export default function RootLayout({
             >
                 <Header />
                 {children}
-                <Footer />
+                <ScrollButtons />
+                
+                {/* <Footer /> */}
             </body>
         </html>
     )

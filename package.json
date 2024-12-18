@@ -6,15 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint", 
+    "lint": "next lint",
     "format": "prettier \"src/app/**/*.{js,jsx,ts,tsx,mjs,cjs,json}\" --write"
-},
+  },
   "dependencies": {
+    "@types/react-syntax-highlighter": "^15.5.13",
     "motion": "^11.13.3",
     "next": "14.2.18",
     "prettier": "^3.4.2",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-syntax-highlighter": "^15.6.1"
   },
   "devDependencies": {
     "@types/node": "^20",
