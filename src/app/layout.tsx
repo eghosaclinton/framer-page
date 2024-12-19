@@ -46,7 +46,7 @@ export default function RootLayout({
                 {children}
                 <ScrollButtons />
                 
-                {/* <Footer /> */}
+                <Footer />
             </body>
         </html>
     )

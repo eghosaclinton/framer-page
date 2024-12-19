@@ -7,7 +7,7 @@ export default function Header() {
         <motion.header
             className="shadow-lg p-3"
             initial={{ y: -75 }}
-            whileInView={{ y: 0, transition: { duration: 1.5 } }}
+            whileInView={{ y: 0, transition: { duration: 1 } }}
         >
             <NavBar />
         </motion.header>
