@@ -73,6 +73,10 @@ h2 {
 
 }
 
+.icon > h2{
+  font-family: var(--font-montserrat);
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -135,6 +139,7 @@ footer a {
 }
 
 .parallax {
+  font-family: var(--font-plaster);
   overflow: hidden;
   letter-spacing: -2px;
   line-height: 0.8;

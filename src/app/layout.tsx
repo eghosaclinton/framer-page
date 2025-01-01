@@ -2,25 +2,25 @@ import type { Metadata } from 'next'
 import Header from './ui/components/Header'
 import ScrollButtons from './ui/components/ScrollButtons'
 import Footer from './ui/components/Footer'
-import './globals.css'
 import { Montserrat, Plaster } from 'next/font/google'
 import localFont from 'next/font/local'
+import './globals.css'
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
     subsets: ['latin'],
     display: 'swap',
     variable: '--font-montserrat',
 })
 
-export const plaster = Plaster({
+const plaster = Plaster({
     subsets: ["latin"],
     weight: "400",
     display: 'swap',
     variable: '--font-plaster',
 })
 
-export const marlinSoft = localFont({
-    src: '../../../public/fonts/FontMesa - MarlinSoftBasic-Regular.otf',
+const marlinSoft = localFont({
+    src: '../../public/fonts/FontMesa - MarlinSoftBasic-Regular.otf',
     variable: '--font-marlin-soft',
 })
 
@@ -44,7 +44,7 @@ export default function RootLayout({
                 <link rel="icon" href="/favicon.ico" sizes="image/ico" />
             </head>
             <body
-                className={`${marlinSoft.className} antialiased`}
+                className={`${marlinSoft.className} ${plaster.variable} ${montserrat.variable} antialiased`}
             >
                 <Header />
                 {children}

@@ -10,7 +10,6 @@ import {
     useAnimationFrame,
 } from 'framer-motion'
 import { wrap } from 'motion'
-import { plaster } from '@/app/layout'
 
 interface ParallaxProps {
     children: string
@@ -66,7 +65,7 @@ export default function ParallaxText({
      * dynamically generated number of children.
      */
     return (
-        <div className={`parallax ${plaster.className}`}>
+        <div className={`parallax`}>
             <motion.div className="scroller" style={{ x }}>
                 <span>{children} </span>
                 <span>{children} </span>

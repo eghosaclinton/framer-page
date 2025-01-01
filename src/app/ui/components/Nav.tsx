@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { montserrat } from '@/app/layout'
 
 export default function NavBar() {
     return (
@@ -11,9 +10,9 @@ export default function NavBar() {
                     src='/images/nnnn.png'
                     height={100}
                     width={100}
-                    alt=""
-                ></Image>
-                <h2 className={`${montserrat.className}`}>
+                    alt="Welsu Logo"
+                />
+                <h2>
                     <span className="block font-medium tracking-widest text-base">
                         College Of
                     </span>
