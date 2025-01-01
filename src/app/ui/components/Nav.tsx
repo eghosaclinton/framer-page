@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { montserrat } from '../fonts'
+import { montserrat } from '@/app/layout'
 
 export default function NavBar() {
     return (

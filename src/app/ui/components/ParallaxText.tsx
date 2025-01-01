@@ -1,4 +1,4 @@
-// import "./styles.css";
+"use client"
 import { useRef } from 'react'
 import {
     motion,
@@ -10,7 +10,7 @@ import {
     useAnimationFrame,
 } from 'framer-motion'
 import { wrap } from 'motion'
-import { plaster } from '../fonts'
+import { plaster } from '@/app/layout'
 
 interface ParallaxProps {
     children: string
