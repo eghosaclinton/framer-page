@@ -66,7 +66,7 @@ export default function ParallaxText({
      * dynamically generated number of children.
      */
     return (
-        <div className={`parallax ${plaster.variable}`}>
+        <div className={`parallax ${plaster.className}`}>
             <motion.div className="scroller" style={{ x }}>
                 <span>{children} </span>
                 <span>{children} </span>

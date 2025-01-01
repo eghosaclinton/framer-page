@@ -12,7 +12,7 @@ export const plaster = Plaster({
     subsets: ["latin"],
     weight: "400",
     display: 'swap',
-    variable: '--font-montserrat',
+    variable: '--font-plaster',
 })
 
 export const marlinSoft = localFont({
