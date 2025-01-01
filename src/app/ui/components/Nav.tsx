@@ -1,6 +1,5 @@
-'use client'
 import Image from 'next/image'
-import iconImg from '@/app/assets/insignia-white_1.svg'
+import { montserrat } from '../fonts'
 
 export default function NavBar() {
     return (
@@ -9,12 +8,12 @@ export default function NavBar() {
                 <Image
                     aria-label="hero-text"
                     className="cursor-pointer"
-                    src={iconImg}
+                    src='/images/nnnn.png'
                     height={100}
                     width={100}
                     alt=""
                 ></Image>
-                <h2>
+                <h2 className={`${montserrat.className}`}>
                     <span className="block font-medium tracking-widest text-base">
                         College Of
                     </span>

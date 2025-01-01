@@ -55,7 +55,6 @@ html {
 
 body {
   margin: 0;
-  font-family: var(--font-marlin-soft);
   padding: 0;
   /* background-color: var(--background);
   color: var(--accent); */
@@ -63,10 +62,6 @@ body {
 
 h1, h2, h3 {
   font-style: normal;
-}
-
-.icon h2 {
-  font-family: var(--font-montserrat), monospace;
 }
 
 h1 {
